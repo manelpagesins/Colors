@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/centre"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text=""
+        android:gravity="center"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/Hora1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fúcsia"
+        android:textSize="12sp"
+        app:layout_constraintCircle="@id/centre"
+        app:layout_constraintCircleAngle="30"
+        app:layout_constraintCircleRadius="110dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/HoraRequadre1"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@color/colorFuchsia"
+        android:textSize="12sp"
+        app:layout_constraintCircle="@id/centre"
+        app:layout_constraintCircleAngle="30"
+        app:layout_constraintCircleRadius="80dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Hora2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/plata"
+        android:textSize="12sp"
+        app:layout_constraintCircle="@id/centre"
+        app:layout_constraintCircleAngle="60"
+        app:layout_constraintCircleRadius="110dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/HoraRequadre2"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@color/colorSilver"
+        android:textSize="12sp"
+        app:layout_constraintCircle="@id/centre"
+        app:layout_constraintCircleAngle="60"
+        app:layout_constraintCircleRadius="80dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Hora3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gris"
+        android:textSize="12sp"
+        app:layout_constraintCircle="@id/centre"
+        app:layout_constraintCircleAngle="90"
+        app:layout_constraintCircleRadius="110dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/HoraRequadre3"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@color/colorGray"
+        android:textSize="12sp"
+        app:layout_constraintCircle="@id/centre"
+        app:layout_constraintCircleAngle="90"
+        app:layout_constraintCircleRadius="85dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Hora4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/negre"
+        android:textSize="12sp"
+        app:layout_constraintCircle="@id/centre"
+        app:layout_constraintCircleAngle="120"
+        app:layout_constraintCircleRadius="110dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/HoraRequadre4"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@color/colorBlack"
+        android:textSize="12sp"
+        app:layout_constraintCircle="@id/centre"
+        app:layout_constraintCircleAngle="120"
+        app:layout_constraintCircleRadius="80dp"
+        tools:ignore="MissingConstraints" />
+
+
+
+    <TextView
+        android:id="@+id/Hora5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/vermell"
+        android:textSize="12sp"
+        app:layout_constraintCircle="@id/centre"
+        app:layout_constraintCircleAngle="150"
+        app:layout_constraintCircleRadius="110dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/HoraRequadre5"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@color/colorRed"
+        android:textSize="12sp"
+        app:layout_constraintCircle="@id/centre"
+        app:layout_constraintCircleAngle="150"
+        app:layout_constraintCircleRadius="80dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Hora6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/marró"
+        android:textSize="12sp"
+        app:layout_constraintCircle="@id/centre"
+        app:layout_constraintCircleAngle="180"
+        app:layout_constraintCircleRadius="110dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/HoraRequadre6"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@color/colorMaroon"
+        android:textSize="12sp"
+        app:layout_constraintCircle="@id/centre"
+        app:layout_constraintCircleAngle="180"
+        app:layout_constraintCircleRadius="80dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Colors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/colors"
+        android:textSize="30sp"
+        app:layout_constraintCircle="@id/centre"
+        app:layout_constraintCircleAngle="180"
+        app:layout_constraintCircleRadius="-160dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/Hora7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/taronja"
+        android:textSize="12sp"
+        app:layout_constraintCircle="@id/centre"
+        app:layout_constraintCircleAngle="210"
+        app:layout_constraintCircleRadius="110dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/HoraRequadre7"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@color/colorOrange"
+        android:textSize="12sp"
+        app:layout_constraintCircle="@id/centre"
+        app:layout_constraintCircleAngle="210"
+        app:layout_constraintCircleRadius="80dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Hora8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/groc"
+        android:textSize="12sp"
+        app:layout_constraintCircle="@id/centre"
+        app:layout_constraintCircleAngle="240"
+        app:layout_constraintCircleRadius="110dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/HoraRequadre8"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@color/colorYellow"
+        android:textSize="12sp"
+        app:layout_constraintCircle="@id/centre"
+        app:layout_constraintCircleAngle="240"
+        app:layout_constraintCircleRadius="80dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Hora9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/oliva"
+        android:textSize="12sp"
+        app:layout_constraintCircle="@id/centre"
+        app:layout_constraintCircleAngle="270"
+        app:layout_constraintCircleRadius="110dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/HoraRequadre9"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@color/colorOlive"
+        android:textSize="12sp"
+        app:layout_constraintCircle="@id/centre"
+        app:layout_constraintCircleAngle="270"
+        app:layout_constraintCircleRadius="80dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Hora10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lima"
+        android:textSize="12sp"
+        app:layout_constraintCircle="@id/centre"
+        app:layout_constraintCircleAngle="300"
+        app:layout_constraintCircleRadius="110dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/HoraRequadre10"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@color/colorLime"
+        android:textSize="12sp"
+        app:layout_constraintCircle="@id/centre"
+        app:layout_constraintCircleAngle="300"
+        app:layout_constraintCircleRadius="80dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Hora11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/verd"
+        android:textSize="12sp"
+        app:layout_constraintCircle="@id/centre"
+        app:layout_constraintCircleAngle="330"
+        app:layout_constraintCircleRadius="110dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/HoraRequadre11"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@color/colorGreen"
+        android:textSize="12sp"
+        app:layout_constraintCircle="@id/centre"
+        app:layout_constraintCircleAngle="330"
+        app:layout_constraintCircleRadius="80dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Hora12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/blau"
+        android:textSize="12sp"
+        app:layout_constraintCircle="@id/centre"
+        app:layout_constraintCircleAngle="360"
+        app:layout_constraintCircleRadius="110dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/HoraRequadre12"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@color/colorBlue"
+        android:textSize="12sp"
+        app:layout_constraintCircle="@id/centre"
+        app:layout_constraintCircleAngle="360"
+        app:layout_constraintCircleRadius="80dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

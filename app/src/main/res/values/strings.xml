@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Idiomes</string>
+    <string name="blau">Blau</string>
+    <string name="fúcsia">Fúcsia</string>
+    <string name="plata">Plata</string>
+    <string name="gris">Gris</string>
+    <string name="negre">Negre</string>
+    <string name="vermell">Vermell</string>
+    <string name="marró">Marró</string>
+    <string name="taronja">Taronja</string>
+    <string name="groc">Groc</string>
+    <string name="oliva">Oliva</string>
+    <string name="lima">Lima</string>
+    <string name="verd">Verd</string>
+    <string name="colors">Els Colors</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Idiomes</string>
+    <string name="blau">Azul</string>
+    <string name="fúcsia">Fucsia</string>
+    <string name="plata">Plata</string>
+    <string name="negre">Negro</string>
+    <string name="gris">Gris</string>
+    <string name="vermell">Rojo</string>
+    <string name="marró">Marrón</string>
+    <string name="taronja">Naranja</string>
+    <string name="groc">Amarillo</string>
+    <string name="oliva">Aceituna</string>
+    <string name="lima">Lima</string>
+    <string name="verd">Verde</string>
+    <string name="colors">Los Colores</string>
+</resources>
